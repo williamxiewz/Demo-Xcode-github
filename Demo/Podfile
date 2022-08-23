@@ -1,7 +1,7 @@
 source 'https://cdn.cocoapods.org/'
 
-#workspace './Moments.xcworkspace'
-#project './Moments/Moments.xcodeproj'
+#workspace './Demo.xcworkspace'
+#project './Demo.xcodeproj'
 inhibit_all_warnings!
 
 platform :ios, '14.0'
