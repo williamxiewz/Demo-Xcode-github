@@ -3,7 +3,7 @@ source 'https://cdn.cocoapods.org/'
 #project './Demo.xcodeproj'
 inhibit_all_warnings!
 
-platform :ios, '13.0'
+platform :ios, '14.0'
 use_frameworks!
 
 def internal_pods
