@@ -92,11 +92,11 @@ private extension AppDelegate {
     #endif
             
     #if INTERNAL
-            print("Internal env")
+        print("Internal env")
     #endif
             
     #if PRODUCTION
-            print("Production env")
+        print("Production env")
     #endif
     }
 }
