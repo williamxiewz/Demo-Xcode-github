@@ -1,8 +1,10 @@
 PODS:
+  - DesignKit (1.0.0)
   - RxSwift (6.5.0)
   - SwiftLint (0.48.0)
 
 DEPENDENCIES:
+  - DesignKit (from `./Frameworks/DesignKit`)
   - RxSwift
   - SwiftLint
 
@@ -11,10 +13,15 @@ SPEC REPOS:
     - RxSwift
     - SwiftLint
 
+EXTERNAL SOURCES:
+  DesignKit:
+    :path: "./Frameworks/DesignKit"
+
 SPEC CHECKSUMS:
+  DesignKit: 2538711c55dd9588c021a1346b8f1a1b96328a8a
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SwiftLint: 284cea64b6187c5d6bd83e9a548a64104d546447
 
-PODFILE CHECKSUM: b53fd4352f1d58424860bc58250ea3c03fde52e8
+PODFILE CHECKSUM: 2a0dc7611274a3747441f2e232871b590d919a75
 
 COCOAPODS: 1.11.3
