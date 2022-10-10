@@ -13,10 +13,32 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        // Use this method to optionally configure and attach the UIWindow `window`
+        // to the provided UIWindowScene `scene`.
+        // If using a storyboard, the `window` property will automatically be initialized
+        // and attached to the scene.
+        // This delegate does not imply the connecting scene
+        // or session are new (see `application:configurationForConnectingSceneSession` instead).
+
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+
+        // Do not want to use private API `_removeSessionFromSessionSet` as memtioned on https://gist.github.com/HiddenJester/e5409ce2ca823b0003c59ce11a494b1d
+        // Just conditionally check and replace with `UnitTestViewController` when running unit tests
+        window = UIWindow(windowScene: windowScene)
+        if UIApplication.shared.isRunningUnitTests {
+            window?.rootViewController = UnitTestViewController()
+        } else {
+            window?.rootViewController = MomentsTimelineViewController()
+        }
+        window?.makeKeyAndVisible()
+
+        // Handle Universal Links here if already opt into Scenes
+        if let userActivity = connectionOptions.userActivities.first,
+            userActivity.activityType == NSUserActivityTypeBrowsingWeb,
+            let incomingURL = userActivity.webpageURL {
+            let router: AppRouting = AppRouter.shared
+            router.route(to: incomingURL, from: nil, using: .present)
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -47,6 +69,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
-
 }
-
