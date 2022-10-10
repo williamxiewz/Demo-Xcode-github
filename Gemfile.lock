@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: https://gems.ruby-china.com/
   specs:
     CFPropertyList (3.0.5)
       rexml
@@ -277,8 +277,8 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  cocoapods
-  fastlane
+  cocoapods (= 1.11.3)
+  fastlane (= 2.210.0)
 
 BUNDLED WITH
    2.3.23

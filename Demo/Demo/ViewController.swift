@@ -11,7 +11,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+#if DEBUG
+        print("Debug")
+#endif
+
+#if INTERNAL
+        print("INTERNAL")
+#endif
+        
+#if PRODUCTION
+        print("PRODUCTION")
+#endif
     }
 
 
