@@ -13,27 +13,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         onLaunch()
-
+        buildTarget()
         return true
     }
-
+    
     // MARK: Handle Universal Links here if not opt into Scenes
     func application(_ application: UIApplication,
                      continue userActivity: NSUserActivity,
                      restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
         // Get URL components from the incoming user activity.
         guard userActivity.activityType == NSUserActivityTypeBrowsingWeb,
-            let incomingURL = userActivity.webpageURL else {
+              let incomingURL = userActivity.webpageURL else {
             return false
         }
-
+        
         let router: AppRouting = AppRouter.shared
         router.route(to: incomingURL, from: nil, using: .present)
         return true
     }
-
+    
     // MARK: UISceneSession Lifecycle
-
+    
     func application(_ application: UIApplication,
                      configurationForConnecting connectingSceneSession: UISceneSession,
                      options: UIScene.ConnectionOptions) -> UISceneConfiguration {
@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: L10n.Development.defaultConfiguration, sessionRole: connectingSceneSession.role)
     }
-
+    
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running,
@@ -53,19 +53,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 private extension AppDelegate {
     func onLaunch() {
         FirebaseApp.configure()
-
+        
         // Can register multiple tracking providers here
         [FirebaseTrackingProvider()].forEach {
             TrackingRepo.shared.register(trackingProvider: $0)
         }
-
+        
         // Register routing here
         let router: AppRouting = AppRouter.shared
         // swiftlint:disable no_hardcoded_strings
         router.register(path: "InternalMenu", navigator: InternalMenuNavigator())
         router.register(path: "DesignKit", navigator: DesignKitDemoNavigator())
         // swiftlint:enable no_hardcoded_strings
-
+        
         let togglesDataStore: TogglesDataStoreType = BuildTargetTogglesDataStore.shared
         if togglesDataStore.isToggleOn(BuildTargetToggle.debug) {
             // There is still a bug in the Firebase Console, so the ID won't work until they fix it
@@ -83,6 +83,21 @@ private extension AppDelegate {
                 // swiftlint:enable no_hardcoded_strings
             }
         }
+    }
+    
+    func buildTarget()  {
+        
+    #if DEBUG
+        print("Debug env")
+    #endif
+            
+    #if INTERNAL
+            print("Internal env")
+    #endif
+            
+    #if PRODUCTION
+            print("Production env")
+    #endif
     }
 }
 
