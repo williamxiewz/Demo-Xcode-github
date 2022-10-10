@@ -1,6 +1,0 @@
-#include "../../../Pods/Target Support Files/Pods-Demo/Pods-Demo.appstore.xcconfig"
-#include "BaseTarget.xcconfig"
-
-PRODUCT_BUNDLE_NAME = $(inherited)
-PRODUCT_BUNDLE_IDENTIFIER = com.powechi.Demo
-FIREBASE_CONFIG_FILENAME = GoogleService-Info-AppStore

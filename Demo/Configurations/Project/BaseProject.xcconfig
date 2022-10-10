@@ -1,3 +1,0 @@
-#include "../Shared/CompilerAndLanguage.xcconfig"
-#include "../Shared/SDKAndDeviceSupport.xcconfig"
-#include "../Shared/BaseConfigurations.xcconfig"
