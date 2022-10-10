@@ -277,8 +277,8 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  cocoapods (= 1.11.3)
-  fastlane (= 2.210.0)
+  cocoapods
+  fastlane
 
 BUNDLED WITH
    2.3.23
