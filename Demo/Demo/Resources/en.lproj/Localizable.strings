@@ -15,7 +15,7 @@
 "internalMenu.featureToggles" = "Feature Toggles";
 "internalMenu.tools" = "Tools";
 "internalMenu.crashApp" = "Crash App";
-
+"internalMenu.H5" = "H5";
 "internalMenu.typography" = "Typography";
 "internalMenu.colors" = "Colors";
 "internalMenu.avatars" = "Avatars";

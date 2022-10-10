@@ -50,6 +50,8 @@ internal enum L10n {
     internal static let featureToggles = L10n.tr("Localizable", "internalMenu.featureToggles")
     /// General Info
     internal static let generalInfo = L10n.tr("Localizable", "internalMenu.generalInfo")
+    /// H5
+    internal static let h5 = L10n.tr("Localizable", "internalMenu.H5")
     /// Heart favorite button
     internal static let heartFavoriteButton = L10n.tr("Localizable", "internalMenu.heartFavoriteButton")
     /// Like Button Enable

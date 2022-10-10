@@ -15,6 +15,7 @@
 "internalMenu.featureToggles" = "功能开关";
 "internalMenu.tools" = "工具箱";
 "internalMenu.crashApp" = "闪退 App";
+"internalMenu.H5" = "H5";
 
 "internalMenu.typography" = "字体";
 "internalMenu.colors" = "颜色";

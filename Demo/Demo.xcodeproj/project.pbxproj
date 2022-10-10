@@ -558,8 +558,8 @@
 		0D8440AF28F414DE00E37E4F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0D8440B028F414DE00E37E4F /* Localizable.strings */,
 				0D8440B328F414DE00E37E4F /* LaunchScreen.storyboard */,
+				0D8440B028F414DE00E37E4F /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -591,8 +591,8 @@
 			children = (
 				0DABF7A328F3CA03007FAD5B /* Configurations */,
 				0D84400128F40FC100E37E4F /* Features */,
-				0D8440AB28F4145700E37E4F /* Generated */,
 				0D84402928F40FC100E37E4F /* Foundations */,
+				0D8440AB28F4145700E37E4F /* Generated */,
 				0D8440AF28F414DE00E37E4F /* Resources */,
 				0DABF77328F3C84D007FAD5B /* AppDelegate.swift */,
 				0D8440B928F4174300E37E4F /* main.swift */,
