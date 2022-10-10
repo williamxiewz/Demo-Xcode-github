@@ -87,9 +87,6 @@
 		0DABF78B28F3C852007FAD5B /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABF78A28F3C852007FAD5B /* DemoTests.swift */; };
 		0DABF79528F3C852007FAD5B /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABF79428F3C852007FAD5B /* DemoUITests.swift */; };
 		0DABF79728F3C852007FAD5B /* DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABF79628F3C852007FAD5B /* DemoUITestsLaunchTests.swift */; };
-		0DABF7C128F3CA03007FAD5B /* GoogleService-Info-Development.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7B328F3CA03007FAD5B /* GoogleService-Info-Development.plist */; };
-		0DABF7C228F3CA03007FAD5B /* GoogleService-Info-Internal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7B428F3CA03007FAD5B /* GoogleService-Info-Internal.plist */; };
-		0DABF7C328F3CA03007FAD5B /* GoogleService-Info-AppStore.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7B528F3CA03007FAD5B /* GoogleService-Info-AppStore.plist */; };
 		4CBCFEDCD16C6E3A94F226DF /* Pods_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3579F1814C90702E7ACB72 /* Pods_DemoTests.framework */; };
 		C42004F3847407ED61C30B62 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB709A25EFE7071C6A543DE /* Pods_Demo.framework */; };
 /* End PBXBuildFile section */
@@ -814,10 +811,7 @@
 			files = (
 				0D8440B628F414DE00E37E4F /* LaunchScreen.storyboard in Resources */,
 				0DABF77D28F3C851007FAD5B /* Assets.xcassets in Resources */,
-				0DABF7C228F3CA03007FAD5B /* GoogleService-Info-Internal.plist in Resources */,
 				0D8440B528F414DE00E37E4F /* Localizable.strings in Resources */,
-				0DABF7C128F3CA03007FAD5B /* GoogleService-Info-Development.plist in Resources */,
-				0DABF7C328F3CA03007FAD5B /* GoogleService-Info-AppStore.plist in Resources */,
 				0D84408828F40FC200E37E4F /* FirebaseRemoteConfigDefaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
