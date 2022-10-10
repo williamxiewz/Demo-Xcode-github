@@ -16,17 +16,6 @@
 		0DABF78B28F3C852007FAD5B /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABF78A28F3C852007FAD5B /* DemoTests.swift */; };
 		0DABF79528F3C852007FAD5B /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABF79428F3C852007FAD5B /* DemoUITests.swift */; };
 		0DABF79728F3C852007FAD5B /* DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABF79628F3C852007FAD5B /* DemoUITestsLaunchTests.swift */; };
-		0DABF7B628F3CA03007FAD5B /* AppStoreTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7A528F3CA03007FAD5B /* AppStoreTarget.xcconfig */; };
-		0DABF7B728F3CA03007FAD5B /* DebugTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7A628F3CA03007FAD5B /* DebugTarget.xcconfig */; };
-		0DABF7B828F3CA03007FAD5B /* InternalTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7A728F3CA03007FAD5B /* InternalTarget.xcconfig */; };
-		0DABF7B928F3CA03007FAD5B /* BaseTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7A828F3CA03007FAD5B /* BaseTarget.xcconfig */; };
-		0DABF7BA28F3CA03007FAD5B /* CompilerAndLanguage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7AA28F3CA03007FAD5B /* CompilerAndLanguage.xcconfig */; };
-		0DABF7BB28F3CA03007FAD5B /* BaseConfigurations.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7AB28F3CA03007FAD5B /* BaseConfigurations.xcconfig */; };
-		0DABF7BC28F3CA03007FAD5B /* SDKAndDeviceSupport.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7AC28F3CA03007FAD5B /* SDKAndDeviceSupport.xcconfig */; };
-		0DABF7BD28F3CA03007FAD5B /* InternalProject.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7AE28F3CA03007FAD5B /* InternalProject.xcconfig */; };
-		0DABF7BE28F3CA03007FAD5B /* AppStoreProject.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7AF28F3CA03007FAD5B /* AppStoreProject.xcconfig */; };
-		0DABF7BF28F3CA03007FAD5B /* DebugProject.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7B028F3CA03007FAD5B /* DebugProject.xcconfig */; };
-		0DABF7C028F3CA03007FAD5B /* BaseProject.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7B128F3CA03007FAD5B /* BaseProject.xcconfig */; };
 		0DABF7C128F3CA03007FAD5B /* GoogleService-Info-Development.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7B328F3CA03007FAD5B /* GoogleService-Info-Development.plist */; };
 		0DABF7C228F3CA03007FAD5B /* GoogleService-Info-Internal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7B428F3CA03007FAD5B /* GoogleService-Info-Internal.plist */; };
 		0DABF7C328F3CA03007FAD5B /* GoogleService-Info-AppStore.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DABF7B528F3CA03007FAD5B /* GoogleService-Info-AppStore.plist */; };
@@ -259,6 +248,7 @@
 			buildPhases = (
 				6E41A31D7E1FE0BF3A7B09EC /* [CP] Check Pods Manifest.lock */,
 				0DABF76C28F3C84D007FAD5B /* Sources */,
+				0D84400028F4016200E37E4F /* Run SwiftLint */,
 				0DABF76D28F3C84D007FAD5B /* Frameworks */,
 				0DABF76E28F3C84D007FAD5B /* Resources */,
 				DB47B4D619B901028A0DD67B /* [CP] Embed Pods Frameworks */,
@@ -360,21 +350,10 @@
 			files = (
 				0DABF78028F3C851007FAD5B /* LaunchScreen.storyboard in Resources */,
 				0DABF77D28F3C851007FAD5B /* Assets.xcassets in Resources */,
-				0DABF7BB28F3CA03007FAD5B /* BaseConfigurations.xcconfig in Resources */,
 				0DABF77B28F3C84D007FAD5B /* Main.storyboard in Resources */,
 				0DABF7C228F3CA03007FAD5B /* GoogleService-Info-Internal.plist in Resources */,
 				0DABF7C128F3CA03007FAD5B /* GoogleService-Info-Development.plist in Resources */,
-				0DABF7B728F3CA03007FAD5B /* DebugTarget.xcconfig in Resources */,
-				0DABF7C028F3CA03007FAD5B /* BaseProject.xcconfig in Resources */,
-				0DABF7B928F3CA03007FAD5B /* BaseTarget.xcconfig in Resources */,
-				0DABF7BF28F3CA03007FAD5B /* DebugProject.xcconfig in Resources */,
-				0DABF7BA28F3CA03007FAD5B /* CompilerAndLanguage.xcconfig in Resources */,
-				0DABF7BD28F3CA03007FAD5B /* InternalProject.xcconfig in Resources */,
 				0DABF7C328F3CA03007FAD5B /* GoogleService-Info-AppStore.plist in Resources */,
-				0DABF7BE28F3CA03007FAD5B /* AppStoreProject.xcconfig in Resources */,
-				0DABF7B828F3CA03007FAD5B /* InternalTarget.xcconfig in Resources */,
-				0DABF7B628F3CA03007FAD5B /* AppStoreTarget.xcconfig in Resources */,
-				0DABF7BC28F3CA03007FAD5B /* SDKAndDeviceSupport.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +374,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0D84400028F4016200E37E4F /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n\n";
+		};
 		2F9D156046CAFAA259A1852A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
