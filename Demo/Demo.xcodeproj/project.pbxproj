@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D697A7E28F5180800C7CD67 /* MomentsTimelineViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A6C28F5180800C7CD67 /* MomentsTimelineViewModelTests.swift */; };
+		0D697A7F28F5180800C7CD67 /* UserProfileListItemViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A6D28F5180800C7CD67 /* UserProfileListItemViewModelTests.swift */; };
+		0D697A8028F5180800C7CD67 /* MomentListItemViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A6E28F5180800C7CD67 /* MomentListItemViewModelTests.swift */; };
+		0D697A8128F5180800C7CD67 /* UpdateMomentLikeSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7028F5180800C7CD67 /* UpdateMomentLikeSessionTests.swift */; };
+		0D697A8228F5180800C7CD67 /* GetMomentsByUserIDSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7128F5180800C7CD67 /* GetMomentsByUserIDSessionTests.swift */; };
+		0D697A8328F5180800C7CD67 /* MomentsRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7328F5180800C7CD67 /* MomentsRepoTests.swift */; };
+		0D697A8428F5180800C7CD67 /* UnlikeActionTrackingEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7528F5180800C7CD67 /* UnlikeActionTrackingEventTests.swift */; };
+		0D697A8528F5180800C7CD67 /* LikeActionTrackingEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7628F5180800C7CD67 /* LikeActionTrackingEventTests.swift */; };
+		0D697A8628F5180800C7CD67 /* TestFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7828F5180800C7CD67 /* TestFixture.swift */; };
+		0D697A8728F5180800C7CD67 /* MockError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7928F5180800C7CD67 /* MockError.swift */; };
+		0D697A8828F5180800C7CD67 /* MockTrackingRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7A28F5180800C7CD67 /* MockTrackingRepo.swift */; };
+		0D697A8928F5180800C7CD67 /* TestObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7B28F5180800C7CD67 /* TestObserver.swift */; };
+		0D697A8A28F5180800C7CD67 /* MockNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7C28F5180800C7CD67 /* MockNow.swift */; };
+		0D697A8B28F5180800C7CD67 /* EquatableViaDump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A7D28F5180800C7CD67 /* EquatableViaDump.swift */; };
+		0D697A9628F5184300C7CD67 /* UserDataStoreObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A8E28F5184300C7CD67 /* UserDataStoreObservableObject.swift */; };
+		0D697A9728F5184300C7CD67 /* MomentsListObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A8F28F5184300C7CD67 /* MomentsListObservableObject.swift */; };
+		0D697A9828F5184300C7CD67 /* SwiftUIMomentsListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A9128F5184300C7CD67 /* SwiftUIMomentsListItemView.swift */; };
+		0D697A9928F5184300C7CD67 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A9228F5184300C7CD67 /* BlurView.swift */; };
+		0D697A9A28F5184300C7CD67 /* SwiftUIMomentListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A9328F5184300C7CD67 /* SwiftUIMomentListItemView.swift */; };
+		0D697A9B28F5184300C7CD67 /* SwiftUIMomentsTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A9428F5184300C7CD67 /* SwiftUIMomentsTimelineView.swift */; };
+		0D697A9C28F5184300C7CD67 /* SwiftUIUserProfileListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697A9528F5184300C7CD67 /* SwiftUIUserProfileListItemView.swift */; };
 		0D84406328F40FC200E37E4F /* UserProfileListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84400428F40FC100E37E4F /* UserProfileListItemViewModel.swift */; };
 		0D84406428F40FC200E37E4F /* MomentsTimelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84400528F40FC100E37E4F /* MomentsTimelineViewModel.swift */; };
 		0D84406528F40FC200E37E4F /* MomentListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84400628F40FC100E37E4F /* MomentListItemViewModel.swift */; };
@@ -109,6 +130,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D697A6C28F5180800C7CD67 /* MomentsTimelineViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsTimelineViewModelTests.swift; sourceTree = "<group>"; };
+		0D697A6D28F5180800C7CD67 /* UserProfileListItemViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileListItemViewModelTests.swift; sourceTree = "<group>"; };
+		0D697A6E28F5180800C7CD67 /* MomentListItemViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentListItemViewModelTests.swift; sourceTree = "<group>"; };
+		0D697A7028F5180800C7CD67 /* UpdateMomentLikeSessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateMomentLikeSessionTests.swift; sourceTree = "<group>"; };
+		0D697A7128F5180800C7CD67 /* GetMomentsByUserIDSessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMomentsByUserIDSessionTests.swift; sourceTree = "<group>"; };
+		0D697A7328F5180800C7CD67 /* MomentsRepoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsRepoTests.swift; sourceTree = "<group>"; };
+		0D697A7528F5180800C7CD67 /* UnlikeActionTrackingEventTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlikeActionTrackingEventTests.swift; sourceTree = "<group>"; };
+		0D697A7628F5180800C7CD67 /* LikeActionTrackingEventTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeActionTrackingEventTests.swift; sourceTree = "<group>"; };
+		0D697A7828F5180800C7CD67 /* TestFixture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFixture.swift; sourceTree = "<group>"; };
+		0D697A7928F5180800C7CD67 /* MockError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockError.swift; sourceTree = "<group>"; };
+		0D697A7A28F5180800C7CD67 /* MockTrackingRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTrackingRepo.swift; sourceTree = "<group>"; };
+		0D697A7B28F5180800C7CD67 /* TestObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestObserver.swift; sourceTree = "<group>"; };
+		0D697A7C28F5180800C7CD67 /* MockNow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNow.swift; sourceTree = "<group>"; };
+		0D697A7D28F5180800C7CD67 /* EquatableViaDump.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquatableViaDump.swift; sourceTree = "<group>"; };
+		0D697A8E28F5184300C7CD67 /* UserDataStoreObservableObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataStoreObservableObject.swift; sourceTree = "<group>"; };
+		0D697A8F28F5184300C7CD67 /* MomentsListObservableObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsListObservableObject.swift; sourceTree = "<group>"; };
+		0D697A9128F5184300C7CD67 /* SwiftUIMomentsListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIMomentsListItemView.swift; sourceTree = "<group>"; };
+		0D697A9228F5184300C7CD67 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		0D697A9328F5184300C7CD67 /* SwiftUIMomentListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIMomentListItemView.swift; sourceTree = "<group>"; };
+		0D697A9428F5184300C7CD67 /* SwiftUIMomentsTimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIMomentsTimelineView.swift; sourceTree = "<group>"; };
+		0D697A9528F5184300C7CD67 /* SwiftUIUserProfileListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIUserProfileListItemView.swift; sourceTree = "<group>"; };
 		0D84400428F40FC100E37E4F /* UserProfileListItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileListItemViewModel.swift; sourceTree = "<group>"; };
 		0D84400528F40FC100E37E4F /* MomentsTimelineViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsTimelineViewModel.swift; sourceTree = "<group>"; };
 		0D84400628F40FC100E37E4F /* MomentListItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentListItemViewModel.swift; sourceTree = "<group>"; };
@@ -247,9 +289,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D697A6928F5180800C7CD67 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0D697A6A28F5180800C7CD67 /* Demo */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		0D697A6A28F5180800C7CD67 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0D697A6B28F5180800C7CD67 /* ViewModels */,
+				0D697A6F28F5180800C7CD67 /* Networking */,
+				0D697A7228F5180800C7CD67 /* Repositories */,
+				0D697A7428F5180800C7CD67 /* Analytics */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		0D697A6B28F5180800C7CD67 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0D697A6C28F5180800C7CD67 /* MomentsTimelineViewModelTests.swift */,
+				0D697A6D28F5180800C7CD67 /* UserProfileListItemViewModelTests.swift */,
+				0D697A6E28F5180800C7CD67 /* MomentListItemViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0D697A6F28F5180800C7CD67 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0D697A7028F5180800C7CD67 /* UpdateMomentLikeSessionTests.swift */,
+				0D697A7128F5180800C7CD67 /* GetMomentsByUserIDSessionTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0D697A7228F5180800C7CD67 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0D697A7328F5180800C7CD67 /* MomentsRepoTests.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0D697A7428F5180800C7CD67 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				0D697A7528F5180800C7CD67 /* UnlikeActionTrackingEventTests.swift */,
+				0D697A7628F5180800C7CD67 /* LikeActionTrackingEventTests.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		0D697A7728F5180800C7CD67 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0D697A7828F5180800C7CD67 /* TestFixture.swift */,
+				0D697A7928F5180800C7CD67 /* MockError.swift */,
+				0D697A7A28F5180800C7CD67 /* MockTrackingRepo.swift */,
+				0D697A7B28F5180800C7CD67 /* TestObserver.swift */,
+				0D697A7C28F5180800C7CD67 /* MockNow.swift */,
+				0D697A7D28F5180800C7CD67 /* EquatableViaDump.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0D697A8C28F5184300C7CD67 /* Moments-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				0D697A8D28F5184300C7CD67 /* ObservableObjects */,
+				0D697A9028F5184300C7CD67 /* Views */,
+			);
+			path = "Moments-SwiftUI";
+			sourceTree = "<group>";
+		};
+		0D697A8D28F5184300C7CD67 /* ObservableObjects */ = {
+			isa = PBXGroup;
+			children = (
+				0D697A8E28F5184300C7CD67 /* UserDataStoreObservableObject.swift */,
+				0D697A8F28F5184300C7CD67 /* MomentsListObservableObject.swift */,
+			);
+			path = ObservableObjects;
+			sourceTree = "<group>";
+		};
+		0D697A9028F5184300C7CD67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D697A9128F5184300C7CD67 /* SwiftUIMomentsListItemView.swift */,
+				0D697A9228F5184300C7CD67 /* BlurView.swift */,
+				0D697A9328F5184300C7CD67 /* SwiftUIMomentListItemView.swift */,
+				0D697A9428F5184300C7CD67 /* SwiftUIMomentsTimelineView.swift */,
+				0D697A9528F5184300C7CD67 /* SwiftUIUserProfileListItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0D84400128F40FC100E37E4F /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0D697A8C28F5184300C7CD67 /* Moments-SwiftUI */,
 				0D84400228F40FC100E37E4F /* Moments */,
 				0D84401528F40FC100E37E4F /* InternalMenu */,
 			);
@@ -606,6 +747,8 @@
 		0DABF78928F3C852007FAD5B /* DemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				0D697A6928F5180800C7CD67 /* Features */,
+				0D697A7728F5180800C7CD67 /* Utilities */,
 				0DABF78A28F3C852007FAD5B /* DemoTests.swift */,
 			);
 			path = DemoTests;
@@ -1007,11 +1150,13 @@
 				0D84408B28F40FC200E37E4F /* Functions.swift in Sources */,
 				0D84408F28F40FC200E37E4F /* PersistentDataStoreType.swift in Sources */,
 				0D8440A628F40FC200E37E4F /* FirebaseActionTrackingEvent.swift in Sources */,
+				0D697A9928F5184300C7CD67 /* BlurView.swift in Sources */,
 				0D84407028F40FC200E37E4F /* InternalMenuItemViewModel.swift in Sources */,
 				0D84406428F40FC200E37E4F /* MomentsTimelineViewModel.swift in Sources */,
 				0D84408C28F40FC200E37E4F /* Configuration.swift in Sources */,
 				0D84406D28F40FC200E37E4F /* UnlikeActionTrackingEvent.swift in Sources */,
 				0D84406528F40FC200E37E4F /* MomentListItemViewModel.swift in Sources */,
+				0D697A9A28F5184300C7CD67 /* SwiftUIMomentListItemView.swift in Sources */,
 				0D84406728F40FC200E37E4F /* UpdateMomentLikeSession.swift in Sources */,
 				0D84409828F40FC200E37E4F /* UniversalLinks.swift in Sources */,
 				0D84408628F40FC200E37E4F /* RemoteConfigProvider.swift in Sources */,
@@ -1030,6 +1175,7 @@
 				0D84408028F40FC200E37E4F /* ListItemViewModel.swift in Sources */,
 				0D84407E28F40FC200E37E4F /* InternalMenuActionTriggerCell.swift in Sources */,
 				0D84406E28F40FC200E37E4F /* LikeActionTrackingEvent.swift in Sources */,
+				0D697A9628F5184300C7CD67 /* UserDataStoreObservableObject.swift in Sources */,
 				0D84408D28F40FC200E37E4F /* UnitTestViewController.swift in Sources */,
 				0D84407128F40FC200E37E4F /* InternalMenuDescriptionItemViewModel.swift in Sources */,
 				0D84408228F40FC200E37E4F /* APISession.swift in Sources */,
@@ -1037,6 +1183,7 @@
 				0D84406F28F40FC200E37E4F /* InternalMenuDesignKitDemoItemViewModel.swift in Sources */,
 				0D84407828F40FC200E37E4F /* DesignKitDemoNavigator.swift in Sources */,
 				0D84406C28F40FC200E37E4F /* UserProfileListItemView.swift in Sources */,
+				0D697A9C28F5184300C7CD67 /* SwiftUIUserProfileListItemView.swift in Sources */,
 				0D84407F28F40FC200E37E4F /* ListViewModel.swift in Sources */,
 				0D84409428F40FC200E37E4F /* FirebaseRemoteTogglesDataStore.swift in Sources */,
 				0DABF77428F3C84D007FAD5B /* AppDelegate.swift in Sources */,
@@ -1053,6 +1200,7 @@
 				0DABF77628F3C84D007FAD5B /* SceneDelegate.swift in Sources */,
 				0D8440A028F40FC200E37E4F /* TrackingRepo.swift in Sources */,
 				0D84407628F40FC200E37E4F /* InternalMenuActionTriggerItemViewModel.swift in Sources */,
+				0D697A9828F5184300C7CD67 /* SwiftUIMomentsListItemView.swift in Sources */,
 				0D84409928F40FC200E37E4F /* AppRouting.swift in Sources */,
 				0D8440B828F4168000E37E4F /* RoutingSource.swift in Sources */,
 				0D8440A428F40FC200E37E4F /* TrackingEvent.swift in Sources */,
@@ -1064,6 +1212,8 @@
 				0D84408928F40FC200E37E4F /* DebuggingUltils.swift in Sources */,
 				0D84409A28F40FC200E37E4F /* BaseViewController.swift in Sources */,
 				0D8440A528F40FC200E37E4F /* ScreenviewsTrackingEvent.swift in Sources */,
+				0D697A9B28F5184300C7CD67 /* SwiftUIMomentsTimelineView.swift in Sources */,
+				0D697A9728F5184300C7CD67 /* MomentsListObservableObject.swift in Sources */,
 				0D8440A128F40FC200E37E4F /* ActionTrackingEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1072,7 +1222,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D697A8928F5180800C7CD67 /* TestObserver.swift in Sources */,
+				0D697A8728F5180800C7CD67 /* MockError.swift in Sources */,
 				0DABF78B28F3C852007FAD5B /* DemoTests.swift in Sources */,
+				0D697A8328F5180800C7CD67 /* MomentsRepoTests.swift in Sources */,
+				0D697A7E28F5180800C7CD67 /* MomentsTimelineViewModelTests.swift in Sources */,
+				0D697A8828F5180800C7CD67 /* MockTrackingRepo.swift in Sources */,
+				0D697A8628F5180800C7CD67 /* TestFixture.swift in Sources */,
+				0D697A7F28F5180800C7CD67 /* UserProfileListItemViewModelTests.swift in Sources */,
+				0D697A8B28F5180800C7CD67 /* EquatableViaDump.swift in Sources */,
+				0D697A8028F5180800C7CD67 /* MomentListItemViewModelTests.swift in Sources */,
+				0D697A8528F5180800C7CD67 /* LikeActionTrackingEventTests.swift in Sources */,
+				0D697A8428F5180800C7CD67 /* UnlikeActionTrackingEventTests.swift in Sources */,
+				0D697A8228F5180800C7CD67 /* GetMomentsByUserIDSessionTests.swift in Sources */,
+				0D697A8A28F5180800C7CD67 /* MockNow.swift in Sources */,
+				0D697A8128F5180800C7CD67 /* UpdateMomentLikeSessionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

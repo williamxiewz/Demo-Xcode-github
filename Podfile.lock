@@ -104,14 +104,16 @@ PODS:
   - Kingfisher (5.15.6):
     - Kingfisher/Core (= 5.15.6)
   - Kingfisher/Core (5.15.6)
+  - Kingfisher/SwiftUI (5.15.6):
+    - Kingfisher/Core
   - nanopb (2.30906.0):
     - nanopb/decode (= 2.30906.0)
     - nanopb/encode (= 2.30906.0)
   - nanopb/decode (2.30906.0)
   - nanopb/encode (2.30906.0)
-  - Nimble (9.0.0)
+  - Nimble (9.0.1)
   - PromisesObjC (1.2.12)
-  - Protobuf (3.21.6)
+  - Protobuf (3.21.7)
   - Quick (3.0.0)
   - RxBlocking (5.1.1):
     - RxSwift (~> 5)
@@ -139,7 +141,8 @@ DEPENDENCIES:
   - Firebase/Performance (= 7.0.0)
   - Firebase/RemoteConfig (= 7.0.0)
   - Kingfisher (= 5.15.6)
-  - Nimble (= 9.0.0)
+  - Kingfisher/SwiftUI (= 5.15.6)
+  - Nimble (= 9.0.1)
   - Quick (= 3.0.0)
   - RxBlocking (= 5.1.1)
   - RxCocoa (= 5.1.1)
@@ -209,9 +212,9 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
   Kingfisher: b3554e7bf6106115b44e8795300bad580ef2fdc7
   nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
-  Nimble: 3b4ec3fd40f1dc178058e0981107721c615643d8
+  Nimble: 7bed62ffabd6dbfe05f5925cbc43722533248990
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
-  Protobuf: e7846f61e8542750cf311385fc633c1d00928f9f
+  Protobuf: f4128517d7a42302e106cc3afe614ee3a7513e94
   Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
   RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
@@ -223,6 +226,6 @@ SPEC CHECKSUMS:
   SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
 
-PODFILE CHECKSUM: d8be28d4e4d486d96f0a803e293d4a8c259e7957
+PODFILE CHECKSUM: 641bc8723988c0ba2f20f057d386c2049fd7f481
 
 COCOAPODS: 1.11.3

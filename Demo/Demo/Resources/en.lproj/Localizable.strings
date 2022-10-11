@@ -15,7 +15,7 @@
 "internalMenu.featureToggles" = "Feature Toggles";
 "internalMenu.tools" = "Tools";
 "internalMenu.crashApp" = "Crash App";
-"internalMenu.H5" = "H5";
+
 "internalMenu.typography" = "Typography";
 "internalMenu.colors" = "Colors";
 "internalMenu.avatars" = "Avatars";
@@ -25,6 +25,7 @@
 "internalMenu.heartFavoriteButton" = "Heart favorite button";
 
 "internalMenu.likeButtonForMomentEnabled" = "Like Button Enable";
+"internalMenu.swiftUIEnabled" = "SwiftUI Enable";
 
 // Moments List
 "momentsList.errorMessage" = "Something went wrong, please try again later";
