@@ -21,7 +21,8 @@ final class MomentsListObservableObject: ObservableObject {
 
     init(userID: String,
          momentsRepo: MomentsRepoType) {
-        viewModel = MomentsTimelineViewModel(userID: userID, momentsRepo: momentsRepo)
+        viewModel = MomentsTimelineViewModel(userID: userID,
+                                             momentsRepo: momentsRepo)
 
         setupBindings()
     }
