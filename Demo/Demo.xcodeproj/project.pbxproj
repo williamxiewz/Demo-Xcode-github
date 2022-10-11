@@ -707,6 +707,8 @@
 		0D8440AF28F414DE00E37E4F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0DABF78128F3C851007FAD5B /* Info.plist */,
+				0DABF77C28F3C851007FAD5B /* Assets.xcassets */,
 				0D8440B328F414DE00E37E4F /* LaunchScreen.storyboard */,
 				0D8440B028F414DE00E37E4F /* Localizable.strings */,
 			);
@@ -744,8 +746,6 @@
 				0D697ACF28F5413E00C7CD67 /* Foundations */,
 				0D697B0928F5413F00C7CD67 /* Generated */,
 				0D8440AF28F414DE00E37E4F /* Resources */,
-				0DABF77C28F3C851007FAD5B /* Assets.xcassets */,
-				0DABF78128F3C851007FAD5B /* Info.plist */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -1365,7 +1365,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5NK9C68KNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = Demo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1496,7 +1496,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5NK9C68KNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = Demo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1627,7 +1627,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5NK9C68KNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = Demo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
