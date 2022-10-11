@@ -24,8 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Get URL components from the incoming user activity.
         guard userActivity.activityType == NSUserActivityTypeBrowsingWeb,
               let incomingURL = userActivity.webpageURL else {
-            return false
-        }
+                  return false
+              }
         
         let router: AppRouting = AppRouter.shared
         router.route(to: incomingURL, from: nil, using: .present)
@@ -53,19 +53,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 private extension AppDelegate {
     func onLaunch() {
         FirebaseApp.configure()
-
+        
         // Can register multiple tracking providers here
         [FirebaseTrackingProvider()].forEach {
             TrackingRepo.shared.register(trackingProvider: $0)
         }
-
+        
         // Register routing here
         let router: AppRouting = AppRouter.shared
         // swiftlint:disable no_hardcoded_strings
         router.register(path: "InternalMenu", navigator: InternalMenuNavigator())
         router.register(path: "DesignKit", navigator: DesignKitDemoNavigator())
         // swiftlint:enable no_hardcoded_strings
-
+        
         let togglesDataStore: TogglesDataStoreType = BuildTargetTogglesDataStore.shared
         if togglesDataStore.isToggleOn(BuildTargetToggle.debug) {
             // There is still a bug in the Firebase Console, so the ID won't work until they fix it
@@ -87,17 +87,17 @@ private extension AppDelegate {
     
     func buildTarget()  {
         
-    #if DEBUG
+#if DEBUG
         print("Debug env")
-    #endif
-            
-    #if INTERNAL
+#endif
+        
+#if INTERNAL
         print("Internal env")
-    #endif
-            
-    #if PRODUCTION
+#endif
+        
+#if PRODUCTION
         print("Production env")
-    #endif
+#endif
     }
 }
 
