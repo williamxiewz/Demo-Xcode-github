@@ -1,3 +1,10 @@
+//
+//  RemoteTogglesDataStore.swift
+//  Moments
+//
+//  Created by Jake Lin on 11/11/20.
+//
+
 import Foundation
 
 enum RemoteToggle: String, ToggleType {

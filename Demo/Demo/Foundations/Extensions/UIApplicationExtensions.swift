@@ -20,7 +20,7 @@ extension UIApplication {
 
     static var appVersion: String {
         // swiftlint:disable no_hardcoded_strings
-        return Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0.0"
+        return Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"
         // swiftlint:enable no_hardcoded_strings
     }
 
