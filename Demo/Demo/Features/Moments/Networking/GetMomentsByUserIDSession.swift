@@ -17,26 +17,26 @@ protocol GetMomentsByUserIDSessionType {
 struct GetMomentsByUserIDSession: GetMomentsByUserIDSessionType {
     struct Response: Codable {
         let data: Data
-
+        
         struct Data: Codable {
             let getMomentsDetailsByUserID: MomentsDetails
         }
     }
-
+    
     struct Session: APISession {
         typealias ReponseType = Response
-
+        
         let path = L10n.Development.graphqlPath
         let parameters: Parameters
         let headers: HTTPHeaders = .init()
-
+        
         init(userID: String, togglesDataStore: TogglesDataStoreType) {
             let variables: [AnyHashable: Encodable] = ["userID": userID,
                                                        "withLikes": togglesDataStore.isToggleOn(InternalToggle.isLikeButtonForMomentEnabled)]
             parameters = ["query": Self.query,
                           "variables": variables]
         }
-
+        
         private static let query = """
            query getMomentsDetailsByUserID($userID: ID!, $withLikes: Boolean!) {
              getMomentsDetailsByUserID(userID: $userID) {
@@ -66,17 +66,17 @@ struct GetMomentsByUserIDSession: GetMomentsByUserIDSessionType {
            }
         """
     }
-
+    
     private let togglesDataStore: TogglesDataStoreType
     private let sessionHandler: (Session) -> Observable<Response>
-
+    
     init(togglesDataStore: TogglesDataStoreType = InternalTogglesDataStore.shared, sessionHandler: @escaping (Session) -> Observable<Response> = {
         $0.post($0.path, headers: $0.headers, parameters: $0.parameters)
     }) {
         self.togglesDataStore = togglesDataStore
         self.sessionHandler = sessionHandler
     }
-
+    
     func getMoments(userID: String) -> Observable<MomentsDetails> {
         let session = Session(userID: userID, togglesDataStore: togglesDataStore)
         return sessionHandler(session).map { $0.data.getMomentsDetailsByUserID }
