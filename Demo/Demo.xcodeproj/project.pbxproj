@@ -621,8 +621,8 @@
 		0D697AEC28F5413F00C7CD67 /* Toggles */ = {
 			isa = PBXGroup;
 			children = (
-				0D697AED28F5413F00C7CD67 /* InternalTogglesDataStore.swift */,
 				0D697AEE28F5413F00C7CD67 /* TogglesDataStoreType.swift */,
+				0D697AED28F5413F00C7CD67 /* InternalTogglesDataStore.swift */,
 				0D697AEF28F5413F00C7CD67 /* BuildTargetTogglesDataStore.swift */,
 				0D697AF028F5413F00C7CD67 /* FirebaseRemoteTogglesDataStore.swift */,
 			);
@@ -694,6 +694,16 @@
 			path = Routing;
 			sourceTree = "<group>";
 		};
+		0D6FC6F728F5664D00B8ADEF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0DABF77328F3C84D007FAD5B /* AppDelegate.swift */,
+				0DABF77528F3C84D007FAD5B /* SceneDelegate.swift */,
+				0D8440B928F4174300E37E4F /* main.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		0D8440AF28F414DE00E37E4F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -728,14 +738,12 @@
 		0DABF77228F3C84D007FAD5B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				0D6FC6F728F5664D00B8ADEF /* Main */,
 				0DABF7A328F3CA03007FAD5B /* Configurations */,
 				0D697A9D28F5413E00C7CD67 /* Features */,
 				0D697ACF28F5413E00C7CD67 /* Foundations */,
 				0D697B0928F5413F00C7CD67 /* Generated */,
 				0D8440AF28F414DE00E37E4F /* Resources */,
-				0DABF77328F3C84D007FAD5B /* AppDelegate.swift */,
-				0D8440B928F4174300E37E4F /* main.swift */,
-				0DABF77528F3C84D007FAD5B /* SceneDelegate.swift */,
 				0DABF77C28F3C851007FAD5B /* Assets.xcassets */,
 				0DABF78128F3C851007FAD5B /* Info.plist */,
 			);

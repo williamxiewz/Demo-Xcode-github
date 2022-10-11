@@ -10,7 +10,7 @@ import Foundation
 enum BuildTargetToggle: ToggleType {
     case debug, `internal`, production
 }
-
+/// 编译目标开关
 struct BuildTargetTogglesDataStore: TogglesDataStoreType {
     static let shared: BuildTargetTogglesDataStore = .init()
     

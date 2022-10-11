@@ -10,7 +10,7 @@ import Foundation
 enum RemoteToggle: String, ToggleType {
     case isRoundedAvatar
 }
-
+/// Firebase 远程开关
 struct FirebaseRemoteTogglesDataStore: TogglesDataStoreType {
     static let shared: FirebaseRemoteTogglesDataStore = .init()
     

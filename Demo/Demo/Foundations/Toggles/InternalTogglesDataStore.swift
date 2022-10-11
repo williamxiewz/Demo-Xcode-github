@@ -11,7 +11,7 @@ enum InternalToggle: String, ToggleType {
     case isLikeButtonForMomentEnabled
     case isSwiftUIEnabled
 }
-
+/// 内测开关
 struct InternalTogglesDataStore: TogglesDataStoreType {
     private let userDefaults: UserDefaults
     static let shared: InternalTogglesDataStore = .init(userDefaults: .standard)
