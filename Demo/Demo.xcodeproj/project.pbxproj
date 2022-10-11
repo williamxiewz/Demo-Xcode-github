@@ -78,11 +78,6 @@
 		0D697B4128F5413F00C7CD67 /* TogglesDataStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AEE28F5413F00C7CD67 /* TogglesDataStoreType.swift */; };
 		0D697B4228F5413F00C7CD67 /* BuildTargetTogglesDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AEF28F5413F00C7CD67 /* BuildTargetTogglesDataStore.swift */; };
 		0D697B4328F5413F00C7CD67 /* FirebaseRemoteTogglesDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AF028F5413F00C7CD67 /* FirebaseRemoteTogglesDataStore.swift */; };
-		0D697B4428F5413F00C7CD67 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AF228F5413F00C7CD67 /* AppRouter.swift */; };
-		0D697B4528F5413F00C7CD67 /* Navigating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AF328F5413F00C7CD67 /* Navigating.swift */; };
-		0D697B4628F5413F00C7CD67 /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AF428F5413F00C7CD67 /* TransitionType.swift */; };
-		0D697B4728F5413F00C7CD67 /* UniversalLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AF528F5413F00C7CD67 /* UniversalLinks.swift */; };
-		0D697B4828F5413F00C7CD67 /* AppRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AF628F5413F00C7CD67 /* AppRouting.swift */; };
 		0D697B4928F5413F00C7CD67 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AF828F5413F00C7CD67 /* BaseViewController.swift */; };
 		0D697B4A28F5413F00C7CD67 /* BaseListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AF928F5413F00C7CD67 /* BaseListItemView.swift */; };
 		0D697B4B28F5413F00C7CD67 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697AFA28F5413F00C7CD67 /* BaseTableViewCell.swift */; };
@@ -98,6 +93,12 @@
 		0D697B5528F5414000C7CD67 /* FirebaseActionTrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697B0728F5413F00C7CD67 /* FirebaseActionTrackingEvent.swift */; };
 		0D697B5628F5414000C7CD67 /* FirebaseTrackingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697B0828F5413F00C7CD67 /* FirebaseTrackingProvider.swift */; };
 		0D697B5728F5414000C7CD67 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697B0A28F5413F00C7CD67 /* Strings.swift */; };
+		0D697B5F28F5432700C7CD67 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697B5928F5432700C7CD67 /* AppRouter.swift */; };
+		0D697B6028F5432700C7CD67 /* Navigating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697B5A28F5432700C7CD67 /* Navigating.swift */; };
+		0D697B6128F5432700C7CD67 /* RoutingSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697B5B28F5432700C7CD67 /* RoutingSource.swift */; };
+		0D697B6228F5432700C7CD67 /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697B5C28F5432700C7CD67 /* TransitionType.swift */; };
+		0D697B6328F5432700C7CD67 /* UniversalLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697B5D28F5432700C7CD67 /* UniversalLinks.swift */; };
+		0D697B6428F5432700C7CD67 /* AppRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D697B5E28F5432700C7CD67 /* AppRouting.swift */; };
 		0D8440B528F414DE00E37E4F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D8440B028F414DE00E37E4F /* Localizable.strings */; };
 		0D8440B628F414DE00E37E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8440B328F414DE00E37E4F /* LaunchScreen.storyboard */; };
 		0D8440BA28F4174300E37E4F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8440B928F4174300E37E4F /* main.swift */; };
@@ -199,11 +200,6 @@
 		0D697AEE28F5413F00C7CD67 /* TogglesDataStoreType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TogglesDataStoreType.swift; sourceTree = "<group>"; };
 		0D697AEF28F5413F00C7CD67 /* BuildTargetTogglesDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTargetTogglesDataStore.swift; sourceTree = "<group>"; };
 		0D697AF028F5413F00C7CD67 /* FirebaseRemoteTogglesDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseRemoteTogglesDataStore.swift; sourceTree = "<group>"; };
-		0D697AF228F5413F00C7CD67 /* AppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
-		0D697AF328F5413F00C7CD67 /* Navigating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigating.swift; sourceTree = "<group>"; };
-		0D697AF428F5413F00C7CD67 /* TransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionType.swift; sourceTree = "<group>"; };
-		0D697AF528F5413F00C7CD67 /* UniversalLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalLinks.swift; sourceTree = "<group>"; };
-		0D697AF628F5413F00C7CD67 /* AppRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouting.swift; sourceTree = "<group>"; };
 		0D697AF828F5413F00C7CD67 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0D697AF928F5413F00C7CD67 /* BaseListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseListItemView.swift; sourceTree = "<group>"; };
 		0D697AFA28F5413F00C7CD67 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
@@ -219,6 +215,12 @@
 		0D697B0728F5413F00C7CD67 /* FirebaseActionTrackingEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseActionTrackingEvent.swift; sourceTree = "<group>"; };
 		0D697B0828F5413F00C7CD67 /* FirebaseTrackingProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseTrackingProvider.swift; sourceTree = "<group>"; };
 		0D697B0A28F5413F00C7CD67 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		0D697B5928F5432700C7CD67 /* AppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		0D697B5A28F5432700C7CD67 /* Navigating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigating.swift; sourceTree = "<group>"; };
+		0D697B5B28F5432700C7CD67 /* RoutingSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingSource.swift; sourceTree = "<group>"; };
+		0D697B5C28F5432700C7CD67 /* TransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionType.swift; sourceTree = "<group>"; };
+		0D697B5D28F5432700C7CD67 /* UniversalLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalLinks.swift; sourceTree = "<group>"; };
+		0D697B5E28F5432700C7CD67 /* AppRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouting.swift; sourceTree = "<group>"; };
 		0D8440B128F414DE00E37E4F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0D8440B228F414DE00E37E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0D8440B428F414DE00E37E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -510,6 +512,7 @@
 		0D697ACF28F5413E00C7CD67 /* Foundations */ = {
 			isa = PBXGroup;
 			children = (
+				0D697B5828F5432700C7CD67 /* Routing */,
 				0D697AD028F5413E00C7CD67 /* ViewModels */,
 				0D697AD328F5413E00C7CD67 /* DateFormatter */,
 				0D697AD528F5413E00C7CD67 /* Networking */,
@@ -521,7 +524,6 @@
 				0D697AE628F5413F00C7CD67 /* Testing */,
 				0D697AE828F5413F00C7CD67 /* DataStore */,
 				0D697AEC28F5413F00C7CD67 /* Toggles */,
-				0D697AF128F5413F00C7CD67 /* Routing */,
 				0D697AF728F5413F00C7CD67 /* Views */,
 				0D697AFE28F5413F00C7CD67 /* Analytics */,
 			);
@@ -627,18 +629,6 @@
 			path = Toggles;
 			sourceTree = "<group>";
 		};
-		0D697AF128F5413F00C7CD67 /* Routing */ = {
-			isa = PBXGroup;
-			children = (
-				0D697AF228F5413F00C7CD67 /* AppRouter.swift */,
-				0D697AF328F5413F00C7CD67 /* Navigating.swift */,
-				0D697AF428F5413F00C7CD67 /* TransitionType.swift */,
-				0D697AF528F5413F00C7CD67 /* UniversalLinks.swift */,
-				0D697AF628F5413F00C7CD67 /* AppRouting.swift */,
-			);
-			path = Routing;
-			sourceTree = "<group>";
-		};
 		0D697AF728F5413F00C7CD67 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -689,6 +679,19 @@
 				0D697B0A28F5413F00C7CD67 /* Strings.swift */,
 			);
 			path = Generated;
+			sourceTree = "<group>";
+		};
+		0D697B5828F5432700C7CD67 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				0D697B5928F5432700C7CD67 /* AppRouter.swift */,
+				0D697B5A28F5432700C7CD67 /* Navigating.swift */,
+				0D697B5B28F5432700C7CD67 /* RoutingSource.swift */,
+				0D697B5C28F5432700C7CD67 /* TransitionType.swift */,
+				0D697B5D28F5432700C7CD67 /* UniversalLinks.swift */,
+				0D697B5E28F5432700C7CD67 /* AppRouting.swift */,
+			);
+			path = Routing;
 			sourceTree = "<group>";
 		};
 		0D8440AF28F414DE00E37E4F /* Resources */ = {
@@ -1132,7 +1135,6 @@
 				0D697B4928F5413F00C7CD67 /* BaseViewController.swift in Sources */,
 				0D697B2728F5413F00C7CD67 /* UserDataStoreObservableObject.swift in Sources */,
 				0D697B2428F5413F00C7CD67 /* DesignKitDemoViewController.swift in Sources */,
-				0D697B4628F5413F00C7CD67 /* TransitionType.swift in Sources */,
 				0D697B1128F5413F00C7CD67 /* MomentsDetails.swift in Sources */,
 				0D697B5528F5414000C7CD67 /* FirebaseActionTrackingEvent.swift in Sources */,
 				0D697B3028F5413F00C7CD67 /* RelativeDateTimeFormatterType.swift in Sources */,
@@ -1141,16 +1143,13 @@
 				0D697B0B28F5413F00C7CD67 /* UserProfileListItemViewModel.swift in Sources */,
 				0D697B4F28F5413F00C7CD67 /* TrackingRepo.swift in Sources */,
 				0D697B2D28F5413F00C7CD67 /* SwiftUIUserProfileListItemView.swift in Sources */,
-				0D697B4428F5413F00C7CD67 /* AppRouter.swift in Sources */,
 				0D697B1A28F5413F00C7CD67 /* InternalMenuFeatureToggleItemViewModel.swift in Sources */,
 				0D8440BA28F4174300E37E4F /* main.swift in Sources */,
 				0D697B1828F5413F00C7CD67 /* InternalMenuItemViewModel.swift in Sources */,
 				0D697B2928F5413F00C7CD67 /* SwiftUIMomentsListItemView.swift in Sources */,
 				0D697B4E28F5413F00C7CD67 /* ListItemView.swift in Sources */,
 				0D697B3228F5413F00C7CD67 /* API.swift in Sources */,
-				0D697B4528F5413F00C7CD67 /* Navigating.swift in Sources */,
 				0D697B3A28F5413F00C7CD67 /* Functions.swift in Sources */,
-				0D697B4728F5413F00C7CD67 /* UniversalLinks.swift in Sources */,
 				0D697B0C28F5413F00C7CD67 /* MomentsTimelineViewModel.swift in Sources */,
 				0D697B3428F5413F00C7CD67 /* FirebaseABTestProvider.swift in Sources */,
 				0D697B1528F5413F00C7CD67 /* UnlikeActionTrackingEvent.swift in Sources */,
@@ -1160,6 +1159,7 @@
 				0D697B0D28F5413F00C7CD67 /* MomentListItemViewModel.swift in Sources */,
 				0D697B0F28F5413F00C7CD67 /* UpdateMomentLikeSession.swift in Sources */,
 				0D697B4228F5413F00C7CD67 /* BuildTargetTogglesDataStore.swift in Sources */,
+				0D697B6128F5432700C7CD67 /* RoutingSource.swift in Sources */,
 				0D697B0E28F5413F00C7CD67 /* GetMomentsByUserIDSession.swift in Sources */,
 				0D697B2528F5413F00C7CD67 /* InternalMenuFeatureToggleCell.swift in Sources */,
 				0D697B3F28F5413F00C7CD67 /* UserDataStore.swift in Sources */,
@@ -1172,6 +1172,7 @@
 				0D697B3B28F5413F00C7CD67 /* Configuration.swift in Sources */,
 				0D697B4C28F5413F00C7CD67 /* BaseTableViewController.swift in Sources */,
 				0D697B1628F5413F00C7CD67 /* LikeActionTrackingEvent.swift in Sources */,
+				0D697B6028F5432700C7CD67 /* Navigating.swift in Sources */,
 				0D697B1928F5413F00C7CD67 /* InternalMenuDescriptionItemViewModel.swift in Sources */,
 				0D697B1728F5413F00C7CD67 /* InternalMenuDesignKitDemoItemViewModel.swift in Sources */,
 				0D697B2A28F5413F00C7CD67 /* BlurView.swift in Sources */,
@@ -1183,6 +1184,7 @@
 				0D697B2828F5413F00C7CD67 /* MomentsListObservableObject.swift in Sources */,
 				0D697B2228F5413F00C7CD67 /* InternalMenuViewController.swift in Sources */,
 				0D697B3C28F5413F00C7CD67 /* UnitTestViewController.swift in Sources */,
+				0D697B6428F5432700C7CD67 /* AppRouting.swift in Sources */,
 				0D697B5728F5414000C7CD67 /* Strings.swift in Sources */,
 				0D697B2128F5413F00C7CD67 /* InternalMenuCellType.swift in Sources */,
 				0D697B3528F5413F00C7CD67 /* RemoteConfigProvider.swift in Sources */,
@@ -1190,7 +1192,6 @@
 				0D697B2F28F5413F00C7CD67 /* ListItemViewModel.swift in Sources */,
 				0DABF77628F3C84D007FAD5B /* SceneDelegate.swift in Sources */,
 				0D697B3628F5413F00C7CD67 /* FirebaseRemoteConfigProvider.swift in Sources */,
-				0D697B4828F5413F00C7CD67 /* AppRouting.swift in Sources */,
 				0D697B1E28F5413F00C7CD67 /* InternalMenuActionTriggerItemViewModel.swift in Sources */,
 				0D697B3828F5413F00C7CD67 /* DebuggingUltils.swift in Sources */,
 				0D697B2E28F5413F00C7CD67 /* ListViewModel.swift in Sources */,
@@ -1202,11 +1203,14 @@
 				0D697B4A28F5413F00C7CD67 /* BaseListItemView.swift in Sources */,
 				0D697B4328F5413F00C7CD67 /* FirebaseRemoteTogglesDataStore.swift in Sources */,
 				0D697B3328F5413F00C7CD67 /* ABTestProvider.swift in Sources */,
+				0D697B5F28F5432700C7CD67 /* AppRouter.swift in Sources */,
 				0D697B5228F5414000C7CD67 /* TrackingEventType.swift in Sources */,
 				0D697B1D28F5413F00C7CD67 /* InternalMenuCrashAppItemViewModel.swift in Sources */,
 				0D697B5428F5414000C7CD67 /* ScreenviewsTrackingEvent.swift in Sources */,
 				0D697B3128F5413F00C7CD67 /* APISession.swift in Sources */,
 				0D697B5128F5414000C7CD67 /* TrackingProvider.swift in Sources */,
+				0D697B6328F5432700C7CD67 /* UniversalLinks.swift in Sources */,
+				0D697B6228F5432700C7CD67 /* TransitionType.swift in Sources */,
 				0D697B3D28F5413F00C7CD67 /* UserDefaultsPersistentDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
