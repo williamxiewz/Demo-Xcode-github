@@ -24,8 +24,6 @@ struct InternalTogglesDataStore: TogglesDataStoreType {
         ])
     }
     
-    // MARK: - Method -
-    
     func isToggleOn(_ toggle: ToggleType) -> Bool {
         guard let toggle = toggle as? InternalToggle else {
             return false

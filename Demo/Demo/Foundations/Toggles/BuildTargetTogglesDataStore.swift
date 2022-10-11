@@ -13,30 +13,30 @@ enum BuildTargetToggle: ToggleType {
 
 struct BuildTargetTogglesDataStore: TogglesDataStoreType {
     static let shared: BuildTargetTogglesDataStore = .init()
-
+    
     private let buildTarget: BuildTargetToggle
-
+    
     private init() {
-        #if DEBUG
+#if DEBUG
         buildTarget = .debug
-        #endif
-
-        #if INTERNAL
+#endif
+        
+#if INTERNAL
         buildTarget = .internal
-        #endif
-
-        #if PRODUCTION
+#endif
+        
+#if PRODUCTION
         buildTarget = .production
-        #endif
+#endif
     }
-
+    
     func isToggleOn(_ toggle: ToggleType) -> Bool {
         guard let toggle = toggle as? BuildTargetToggle else {
             return false
         }
-
+        
         return toggle == buildTarget
     }
-
+    
     func update(toggle: ToggleType, value: Bool) { }
 }

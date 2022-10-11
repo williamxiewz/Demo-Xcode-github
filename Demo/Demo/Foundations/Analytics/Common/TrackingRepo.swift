@@ -16,23 +16,24 @@ protocol TrackingRepoType {
 
 final class TrackingRepo: TrackingRepoType {
     static let shared: TrackingRepo = .init()
-
+    
     private var providers = [TrackingProvider]()
-
+    
     private init() { }
-
+    
+    // MARK: - Register Track -
     func register(trackingProvider: TrackingProvider) {
         providers.append(trackingProvider)
     }
-
+    
     func trackScreenviews(_ event: TrackingEventType) {
         providers.forEach { $0.trackScreenviews(event) }
     }
-
+    
     func trackEvent(_ event: TrackingEventType) {
         providers.forEach { $0.trackEvent(event) }
     }
-
+    
     func trackAction(_ event: TrackingEventType) {
         providers.forEach { $0.trackAction(event) }
     }

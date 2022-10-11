@@ -655,9 +655,9 @@
 			isa = PBXGroup;
 			children = (
 				0D697B0028F5413F00C7CD67 /* TrackingRepo.swift */,
-				0D697B0128F5413F00C7CD67 /* ActionTrackingEvent.swift */,
 				0D697B0228F5413F00C7CD67 /* TrackingProvider.swift */,
 				0D697B0328F5413F00C7CD67 /* TrackingEventType.swift */,
+				0D697B0128F5413F00C7CD67 /* ActionTrackingEvent.swift */,
 				0D697B0428F5413F00C7CD67 /* TrackingEvent.swift */,
 				0D697B0528F5413F00C7CD67 /* ScreenviewsTrackingEvent.swift */,
 			);
