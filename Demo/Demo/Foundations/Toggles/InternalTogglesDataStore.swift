@@ -14,30 +14,31 @@ enum InternalToggle: String, ToggleType {
 
 struct InternalTogglesDataStore: TogglesDataStoreType {
     private let userDefaults: UserDefaults
-
+    static let shared: InternalTogglesDataStore = .init(userDefaults: .standard)
+    
     private init(userDefaults: UserDefaults) {
         self.userDefaults = userDefaults
         self.userDefaults.register(defaults: [
             InternalToggle.isLikeButtonForMomentEnabled.rawValue: false,
             InternalToggle.isSwiftUIEnabled.rawValue: false
-            ])
+        ])
     }
-
-    static let shared: InternalTogglesDataStore = .init(userDefaults: .standard)
-
+    
+    // MARK: - Method -
+    
     func isToggleOn(_ toggle: ToggleType) -> Bool {
         guard let toggle = toggle as? InternalToggle else {
             return false
         }
-
+        
         return userDefaults.bool(forKey: toggle.rawValue)
     }
-
+    
     func update(toggle: ToggleType, value: Bool) {
         guard let toggle = toggle as? InternalToggle else {
             return
         }
-
+        
         userDefaults.set(value, forKey: toggle.rawValue)
     }
 }

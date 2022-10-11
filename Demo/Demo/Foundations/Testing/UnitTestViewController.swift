@@ -15,7 +15,6 @@ final class UnitTestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setupUI()
         setConstraints()
     }
