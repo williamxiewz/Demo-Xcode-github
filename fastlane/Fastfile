@@ -9,7 +9,7 @@ platform :ios do
     puts("Lint code using SwfitLint")
     swiftlint(
       mode: :lint,
-      executable: "./Pods/SwiftLint/swiftlint",  # The SwiftLint binary path (optional). Important if you've installed it via CocoaPods
+      executable: "./Pods/SwiftLint/swiftlint",  
       config_file: './Demo/.swiftlint.yml',
       raise_if_swiftlint_error: true)
   end
@@ -19,7 +19,7 @@ platform :ios do
     puts("Lint and format code using SwfitLint")
     swiftlint(
       mode: :autocorrect,
-      executable: "./Pods/SwiftLint/swiftlint",  # The SwiftLint binary path (optional). Important if you've installed it via CocoaPods
+      executable: "./Pods/SwiftLint/swiftlint", 
       config_file: './Demo/.swiftlint.yml',
       raise_if_swiftlint_error: true)
   end
@@ -282,7 +282,10 @@ platform :ios do
 
   desc 'Deploy the Internal app to Pyger'
   lane :deploy_pyger do
-      pgyer(api_key: "7f15xxxxxxxxxxxxxxxxxx141", update_description: "update by fastlane")
+    pgyer(
+      api_key: "7f15xxxxxxxxxxxxxxxxxx141", 
+      update_description: "update by fastlane"
+    )
   end
 
   desc 'Deploy the Production app to TestFlight and App Store'
