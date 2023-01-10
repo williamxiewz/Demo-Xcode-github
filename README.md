@@ -40,7 +40,7 @@ $ ./scripts/setup.sh
 $ open Demo.xcworkspace 
 ```
 
-### Automation GitLab Runner
+### Automation 
 
 If you'd like to run the automation steps on your local machine, make sure your create a file called `local.keys` and put all the keys in as below:
 
