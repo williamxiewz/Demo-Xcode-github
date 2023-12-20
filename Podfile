@@ -65,7 +65,7 @@ end
 
 post_install do |installer|
   # 遍历项目中的所有tartget
-  installer.pods_project.targets.each do |target
+  installer.pods_project.targets.each do |target|
     # 遍历build_configurations
     target.build_configurations.each do |config|
       # 删除 build_settings中的 中的 IPHONEOS_DEPLOYMENT_TARGET
