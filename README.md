@@ -10,27 +10,27 @@
 ## 1.安装 [Homebrew](https://brew.sh/)
 
 ```shell
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 ## 2.安装 [oh-my-zsh](https://ohmyz.sh/) 
 ```shell
-$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 ## 3.安装 [zsh git 插件](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git/git.plugin.zsh)
 ```shell
-$ brew install zsh-git-prompt
+brew install zsh-git-prompt
 ```
 ## 4.安装 [rbenv](https://github.com/rbenv/rbenv) - ruby版本管理工具
 
 ```shell
-$ brew install rbenv ruby-build rbenv-vars
+brew install rbenv ruby-build rbenv-vars
 ```
 ## 5.安装最新版Ruby
 
 ```shell
-$ rbenv install --list
-$ rbenv install 3.1.2 
-$ rbenv local 3.1.2
+rbenv install --list
+rbenv install 3.2.7 
+rbenv local 3.2.7
 ```
 
 After that, run the following commands to install all required components and set up the development environment:
